@@ -65,3 +65,20 @@ The aforementioned `JS_` fields are not real fields,
 and ContentLib won't know what to do with them.
 
 You should read the other ContentLib documentation pages for the assets you're looking to create.
+
+=== Inspect Values on an Actor
+
+In this example, we'll look at the stored fuel level in a Jetpack.
+
+1. Install https://ficsit.app/mod/ContentInspector[ContentInspector] via Satisfactory Mod Manager
+2. Launch the game
+3. Open the game world, construct a Lookout Tower, and equip a Jetpack
+4. Fly onto the lookout tower and perch on the ladder. This will keep the Jetpack from refueling.
+5. Go to the 'Mod Configs' menu tab on the pause menu
+6. Open the tab for ContentInspector and scroll down to find its widget
+7. Select 'Pak' in the sidebar because we are looking for a file packaged inside of a mod/base-game
+8. Check 'Show Actors' in the sidebar since we want to inspect an instance, not the class itself
+9. Check 'Use Widgets' in the sidebar so it's easier to read the output
+10. Navigate to the path of the equipment actor TODO paste that here
+11. Open the dropdown to reveal the Jetpack actor we're wearing
+12. Locate the TODO field, which should match the fill level displayed in the equipment HUD.
