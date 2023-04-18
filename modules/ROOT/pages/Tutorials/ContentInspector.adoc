@@ -82,3 +82,7 @@ In this example, we'll look at the stored fuel level in a Jetpack.
 10. Navigate to the path of the equipment actor TODO paste that here
 11. Open the dropdown to reveal the Jetpack actor we're wearing
 12. Locate the TODO field, which should match the fill level displayed in the equipment HUD.
+
+=== Modify Refined Power Wind Turbines
+
+TODO https://discord.com/channels/555424930502541343/555510208957382656/1097685017049714841
